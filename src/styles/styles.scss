@@ -1,0 +1,16 @@
+@import '../../node_modules/npm-font-open-sans/open-sans';
+
+// colors
+
+$color-green: #16a086;
+$color-red: #c0392b;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+body, input[type=text] {
+  font-family: 'Open Sans';
+}
+
+@import './blocks/app';
